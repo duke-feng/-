@@ -72,6 +72,7 @@ int main()
 			wm.Sort_Emp();
 			break;
 		case 7: //Çå¿Õ
+			wm.Clean_File();
 			break;
 		default:
 			system("cls");//ÇåÆÁ
