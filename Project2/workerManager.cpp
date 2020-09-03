@@ -14,7 +14,7 @@ workerManager::workerManager()
 
 	if (!ifs.is_open())
 	{
-		cout << "文件不存在" << endl;
+		//cout << "文件不存在" << endl;
 		//初始化属性
 		//初始化记录人数
 		this->m_EmpNum = 0;
@@ -30,7 +30,7 @@ workerManager::workerManager()
 	ifs >> ch;
 	if (ifs.eof())
 	{
-		 cout << "文件为空" << endl;
+		 //cout << "文件为空" << endl;
 		//初始化属性
 		//初始化记录人数
 		this->m_EmpNum = 0;
